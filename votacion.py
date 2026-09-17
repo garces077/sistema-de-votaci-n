@@ -38,4 +38,4 @@ def registrar_voto(nombre, candidato):
         votantes.add(nombre)
         historial.append(f"{nombre} voto por {candidato}")
         return True
-    return False.'p'
+    return False
