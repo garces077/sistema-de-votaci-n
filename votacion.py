@@ -14,3 +14,17 @@
 
 # Entrega: pantallazo de "git log --oneline --decorate" mostrando
 # tus commits y tu tag personal
+
+# votacion.py - Sistema de votación base
+votos = {"Candidato A": 0, "Candidato B": 0}
+votantes = set()
+historial = []
+
+def registrar_voto():
+    pass
+
+def ver_resultados():
+    pass
+
+def reiniciar_votacion():
+    pass
