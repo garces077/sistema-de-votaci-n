@@ -28,3 +28,14 @@ def ver_resultados():
 
 def reiniciar_votacion():
     pass
+
+def registrar_voto(nombre, candidato):
+    if nombre in votantes:
+        print(f"{nombre} ya votó.")
+        return False
+    if candidato in votos:
+        votos[candidato] += 1
+        votantes.add(nombre)
+        historial.append(f"{nombre} voto por {candidato}")
+        return True
+    return False.'p'
